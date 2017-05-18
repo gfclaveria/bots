@@ -3,15 +3,15 @@
   <Role name="WorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=$storage$;AccountKey=$storageKey$" />
-      <!--<Setting name="ServiceDnsName" value="$ServiceDnsName$" /> -->
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=gerroshuebot;AccountKey=DKuy1+HbY4aWKkzvedSZ2AQPWqCDY0Tu6b2oPxga6ldqrk9AMvbH1ysDq5sF+ops8jf7g03o44G9k+cI/B2wAg==;EndpointSuffix=core.windows.net" />
+      <Setting name="ServiceDnsName" value="gerroshuebot.cloudapp.net" /> 
       <!-- xyz.cloudapp.net-->
-      <!--<Setting name="DefaultCertificate" value="$CertificateThumbprint$" />-->
-      <!--<Setting name="Skype.Bots.Speech.Subscription" value="$SpeechSubscriptionKey$"/>-->
+      <Setting name="DefaultCertificate" value="A61B7AF002D185BAF5A99651964F47595245BA9C" />
+      <Setting name="Skype.Bots.Speech.Subscription" value="$SpeechSubscriptionKey$"/>
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
     </ConfigurationSettings>
     <Certificates>
-      <!--<Certificate name="Default" thumbprint="$CertificateThumbprint$" thumbprintAlgorithm="sha1" />-->
+      <Certificate name="Default" thumbprint="A61B7AF002D185BAF5A99651964F47595245BA9C" thumbprintAlgorithm="sha1" />
     </Certificates>
   </Role>
   <NetworkConfiguration>
